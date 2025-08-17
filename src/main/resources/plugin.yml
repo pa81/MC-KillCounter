@@ -1,0 +1,15 @@
+name: KillCounter
+version: 1.0
+main: com.huhushop.killcounter.KillCounter
+api-version: '1.20'
+author: pa81 a.k.a HuHuShop
+description: Displays kill count and plays Valorant-like sounds on player kills.
+commands:
+  KC:
+    description: Toggles the KillCounter functionality ON or OFF.
+    usage: /KC <True/False>
+    permission: killcounter.toggle
+permissions:
+  killcounter.toggle:
+    description: Allows toggling the KillCounter functionality.
+    default: true
